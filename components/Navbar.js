@@ -101,8 +101,8 @@ export default function Navbar({ projects = [], currentProject, models = [] }) {
           >
             <Box
               component="img"
-              src="/imgs/logo.svg"
-              alt="Easy Dataset Logo"
+              src="/imgs/favicon.ico"
+              alt="Vp Dataset Logo"
               sx={{
                 width: 28,
                 height: 28,

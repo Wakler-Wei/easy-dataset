@@ -6,7 +6,7 @@ export const metadata = {
   title: 'Vp Dataset',
   description: '一个强大的 LLM 数据集生成工具',
   icons: {
-    icon: '/imgs/logo.ico',  // 更新为正确的文件名
+    icon: '/imgs/favicon.ico',  // 更新为正确的文件名
   },
 };
 
