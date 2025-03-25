@@ -125,7 +125,7 @@
         "copied": "Copied"
     },
     "home": {
-        "title": "Easy Dataset",
+        "title": "Vpclub Dataset",
         "subtitle": "A powerful tool for creating fine-tuning datasets for Large Language Models",
         "createProject": "Create Project",
         "searchDataset": "Search Public Datasets"
