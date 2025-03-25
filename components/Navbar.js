@@ -120,7 +120,7 @@ export default function Navbar({ projects = [], currentProject, models = [] }) {
               className={theme.palette.mode === 'dark' ? 'gradient-text' : ''}
               color={theme.palette.mode === 'dark' ? 'inherit' : 'white'}
             >
-              Easy DataSet
+                Vp DataSet
             </Typography>
           </Box>
 
