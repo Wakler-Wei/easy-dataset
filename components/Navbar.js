@@ -244,7 +244,7 @@ export default function Navbar({ projects = [], currentProject, models = [] }) {
           }
 
           {/* 数据集广场链接 - 改为图标按钮样式 */}
-          <Tooltip title={t('datasetSquare.title')}>
+        {/*  <Tooltip title={t('datasetSquare.title')}>
             <IconButton
               component={Link}
               href="/dataset-square"
@@ -262,7 +262,7 @@ export default function Navbar({ projects = [], currentProject, models = [] }) {
             >
               <StorageIcon fontSize="small" />
             </IconButton>
-          </Tooltip>
+          </Tooltip>*/}
           {/* 语言切换器 */}
           <Box sx={{ display: 'flex', alignItems: 'center', ml: 2 }}>
             <LanguageSwitcher />
@@ -287,7 +287,7 @@ export default function Navbar({ projects = [], currentProject, models = [] }) {
           </Tooltip>
 
           {/* GitHub链接 */}
-          <Tooltip title={t('common.visitGitHub')}>
+      {/*    <Tooltip title={t('common.visitGitHub')}>
             <IconButton
               onClick={() => window.open('https://github.com/ConardLi/easy-dataset', '_blank')}
               size="small"
@@ -303,7 +303,7 @@ export default function Navbar({ projects = [], currentProject, models = [] }) {
             >
               <GitHubIcon fontSize="small" />
             </IconButton>
-          </Tooltip>
+          </Tooltip>*/}
 
           {/* 更新检查器 */}
           <UpdateChecker />

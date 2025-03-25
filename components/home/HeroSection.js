@@ -104,7 +104,7 @@ export default function HeroSection({ onCreateProject }) {
                         >
                             {t('home.createProject')}
                         </Button>
-                        <Button
+{/*                        <Button
                             variant="contained"
                             size="large"
                             onClick={() => {
@@ -126,7 +126,7 @@ export default function HeroSection({ onCreateProject }) {
                             }}
                         >
                             {t('home.searchDataset')}
-                        </Button>
+                        </Button>*/}
                     </Box>
                 </Box>
             </Container>
